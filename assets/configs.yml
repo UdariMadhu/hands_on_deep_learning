@@ -1,0 +1,19 @@
+core:
+  exp_name: "temp"
+  save_dir: "./trained_models"
+  arch: "CNNSimple"
+  trial: 0
+  print_freq: 50
+  seed: 1234
+
+dataset:
+  name: "cifar10"
+  data_dir: "/tmp/"
+  workers: 4
+
+optimization:
+  epochs: 25
+  lr: 0.1
+  batch_size: 256
+  momentum: 0.9
+  weight_decay: 0.0001

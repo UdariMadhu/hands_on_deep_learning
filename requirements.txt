@@ -1,0 +1,6 @@
+omegaconf
+torchinfo
+numpy
+scipy
+torch
+torchvision
